@@ -2,7 +2,7 @@ body {
     background-color: powderblue;
 }
 
-table, td {
+table, td, th {
     border: 1px solid black;
     height: 40%;
     left: 10%;
