@@ -5,10 +5,12 @@
     z-index: 1000;
 }*/
 
-header {
+#banner {
   background-image: url(./img/blockchain.jpeg.jpg);
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: fit-content;
+
 }
 
 /*#header-background {
