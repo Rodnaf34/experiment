@@ -8,9 +8,16 @@
 #banner {
   background-image: url(./img/blockchain.jpeg.jpg);
   background-size: cover;
-  background-position: center;
   width: 100%;
+  position: absolute;
 
+}
+
+#banner h1 {
+  color: black;
+  font-size: large;
+  font-style: italic;
+  font-weight: bold;
 }
 
 /*#header-background {
