@@ -1,5 +1,5 @@
 #logo {
-    position: fixed;
+    position: absolute;
     top: 10px;
     left: 10px;
     z-index: 1000;
@@ -11,18 +11,17 @@
   width: 100%;
   position: absolute;
   height: 300px;
-  position: relative;
   z-index: 0;
-
-
 }
 
 #banner h1 {
+  text-align: center;
+  top: 20px;
   color: black;
   font-size: large;
   font-style: italic;
   font-weight: bold;
-  position: fixed;
+  position: absolute;
 }
 
 /*#header-background {
