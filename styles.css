@@ -1,5 +1,5 @@
 #logo {
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 10px;
     z-index: 1000;
@@ -22,8 +22,8 @@
   font-size: large;
   font-style: italic;
   font-weight: bold;
-  text-align: center;
-  margin: 50%;
+  position: fixed;
+  top: 100px;
 }
 
 /*#header-background {
