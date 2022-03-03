@@ -22,6 +22,8 @@
   font-size: large;
   font-style: italic;
   font-weight: bold;
+  text-align: center;
+  margin: 50%;
 }
 
 /*#header-background {
