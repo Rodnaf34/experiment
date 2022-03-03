@@ -39,7 +39,8 @@
 
 #content {
   margin-top: 300px;
-  max-width: 500px;
+  max-width: 1000px;
+  text-align: center;
 }
 
 h1 {
