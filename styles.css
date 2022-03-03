@@ -15,8 +15,10 @@
 }
 
 #banner h1 {
+  width: auto;
   text-align: center;
   margin-top: 20px;
+  margin-left: 50%;
   color: white;
   font-size: large;
   font-style: italic;
@@ -36,7 +38,7 @@
 }*/
 
 #content {
-  margin-top: 50px;
+  margin-top: 500px;
 }
 
 h1 {
