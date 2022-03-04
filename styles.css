@@ -19,8 +19,8 @@
   text-align: center;
   margin-top: 10%;
   margin-left: 40%;
-  color: white;
-  font-size: large;
+  color: black;
+  font-size: 900px;
   font-style: italic;
   font-weight: bold;
   position: absolute;
@@ -41,7 +41,7 @@ body {
   margin-top: 300px;
   max-width: 1500px;
   text-align: center;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 h1 {
