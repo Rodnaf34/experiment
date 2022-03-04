@@ -17,7 +17,7 @@
 #banner h1 {
   width: auto;
   text-align: center;
-  margin-top: 50%;
+  margin-top: 10%;
   margin-left: 40%;
   color: white;
   font-size: large;
@@ -41,7 +41,7 @@ body {
   margin-top: 300px;
   max-width: 1500px;
   text-align: center;
-  margin-left: 50%;
+  margin-left: 20%;
 }
 
 h1 {
