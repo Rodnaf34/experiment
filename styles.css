@@ -27,6 +27,10 @@
   align-items: center;
 }
 
+.content {
+  justify-content: center;
+}
+
 /*#header-background {
   width: 100%;
   height: 100px;
