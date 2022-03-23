@@ -1,3 +1,1 @@
-function greeting () {
-    return 'Hello World!'
-};
+window.alert('Hello World!');
