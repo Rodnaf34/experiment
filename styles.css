@@ -99,3 +99,7 @@ table {
     text-align: left;
     width: 33.3333%;
   }
+
+  #nodejs {
+    cursor: pointer;
+  }
