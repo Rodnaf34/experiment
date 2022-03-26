@@ -1,6 +1,5 @@
-const hello = window.alert('Hello World!');
-
 let buttonTarget = document.getElementById('button');
+const colorChange = buttonTarget.style.backgroundColor('white');
 
-buttonTarget.addEventListener('click', hello);
+buttonTarget.addEventListener('click', colorChange);
 
