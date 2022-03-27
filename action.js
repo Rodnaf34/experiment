@@ -12,16 +12,12 @@ function wisdomSelector () {
     return wisdom[randomWisdom];
 }
 
-const sleep = setTimeout(() => {
-    buttonTarget.style.color ='black';
-}, 2000);
 
 function showWisdom () {
     wisdomTarget.innerHTML = wisdomSelector();
     buttonTarget.innerHTML = 'Deal with it! Click again.';
     //buttonTarget.style.cursor = 'default';
     buttonTarget.style.color = 'white';
-    sleep
 
     //buttonTarget.removeEventListener(click, showWisdom);
 }
