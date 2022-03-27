@@ -111,6 +111,10 @@ table {
   font-family: 'Courier New', Courier, monospace;
 }
 
+#buttonContainer {
+  height: 500px;
+}
+
   #button {
   width: 200px;
   height: 50px;
