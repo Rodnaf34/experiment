@@ -13,7 +13,7 @@ function wisdomSelector () {
 }
 
 function showWisdom () {
-    wisdomTarget.innerHTML = wisdomSelector;
+    wisdomTarget.innerHTML = wisdomSelector();
     buttonTarget.innerHTML = 'Deal with it!';
     buttonTarget.style.cursor = 'default';
     buttonTarget.style.color = 'white';

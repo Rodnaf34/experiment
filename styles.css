@@ -104,6 +104,13 @@ table {
     cursor: pointer;
   }
 
+
+#wisdom-para {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+
   #button {
   width: 200px;
   height: 50px;
