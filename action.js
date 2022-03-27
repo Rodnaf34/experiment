@@ -1,4 +1,4 @@
-let wisdom = ['Most people are creatures of pure hindsight', 'Always seek to create a third way; people will always have you beleive that there are only two, of which they are at the center',
+let wisdom = ['Most people are creatures of pure hindsight', 'Always seek to create a third way; people will always have you beleive that there are only two, both of which they are at the center',
 'Always respect your superiors, if you have any', 'all things change in a dynamic environment, your efforts to remain what you are is what limits you...and all environments are dynamic',
 'Great spirits have always encountered opposition from mediocre minds', 'Concepts only have meaning if we can point to objects to which they refer and rules by which they are assigned to these objects', 
 'Prosperity is the best protector of principle', '...what is called "freedom of will" is essentially the affect of superiority over him who must obey...', '...[professionals] trained to make distinctions rather than to see connections',
@@ -12,11 +12,17 @@ function wisdomSelector () {
     return wisdom[randomWisdom];
 }
 
+const sleep = setTimeout(() => {
+    buttonTarget.style.color ='black';
+}, 2000);
+
 function showWisdom () {
     wisdomTarget.innerHTML = wisdomSelector();
-    buttonTarget.innerHTML = 'Deal with it!';
-    buttonTarget.style.cursor = 'default';
+    buttonTarget.innerHTML = 'Deal with it! Click again.';
+    //buttonTarget.style.cursor = 'default';
     buttonTarget.style.color = 'white';
+    sleep
+
     //buttonTarget.removeEventListener(click, showWisdom);
 }
 
