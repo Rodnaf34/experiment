@@ -20,4 +20,4 @@ function showWisdom () {
     //buttonTarget.removeEventListener(click, showWisdom);
 }
 
-buttonTarget.addEventListener(click, showWisdom);
+buttonTarget.addEventListener('click', showWisdom);
