@@ -17,6 +17,7 @@ function showWisdom () {
     buttonTarget.innerHTML = 'Deal with it!';
     buttonTarget.style.cursor = 'default';
     buttonTarget.style.color = 'white';
+    //buttonTarget.removeEventListener(click, showWisdom);
 }
 
 buttonTarget.addEventListener(click, showWisdom);
