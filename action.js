@@ -2,7 +2,9 @@ let wisdom = ['Most people are creatures of pure hindsight', 'Always seek to cre
 'Always respect your superiors, if you have any', 'all things change in a dynamic environment, your efforts to remain what you are is what limits you...and all environments are dynamic',
 'Great spirits have always encountered opposition from mediocre minds', 'Concepts only have meaning if we can point to objects to which they refer and rules by which they are assigned to these objects', 
 'Prosperity is the best protector of principle', '...what is called "freedom of will" is essentially the affect of superiority over him who must obey...', '...[professionals] trained to make distinctions rather than to see connections',
-'...they [professionals] smother analysis and prevent clarification by a welter of conceptual terms...'];
+'...they [professionals] smother analysis and prevent clarification by a welter of conceptual terms...', 'sorting something you will never search is a waste,  searching something you never sorted is merely inefficient',
+'"smart" is not a competency, it is a vote of confidence', 'There is a limit to how positive things can be. But there is no limit to the depth of negativity. Therefore a pessimist is actually a realist', '"what might have been..." is an essential part of misery', 
+'the Beaver told the Rabbit, "no I didn\'t build the Hoover dam but it was based on an idea of mine..."'];
 
 let buttonTarget = document.getElementById('button');
 let wisdomTarget = document.getElementById('wisdom-para');
