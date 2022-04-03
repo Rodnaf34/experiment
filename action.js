@@ -4,7 +4,9 @@ let wisdom = ['Most people are creatures of pure hindsight', 'Always seek to cre
 'Prosperity is the best protector of principle', '...what is called "freedom of will" is essentially the affect of superiority over him who must obey...', '...[professionals] trained to make distinctions rather than to see connections',
 '...they [professionals] smother analysis and prevent clarification by a welter of conceptual terms...', 'sorting something you will never search is a waste,  searching something you never sorted is merely inefficient',
 '"smart" is not a competency, it is a vote of confidence', 'There is a limit to how positive things can be. But there is no limit to the depth of negativity. Therefore a pessimist is actually a realist', '"what might have been..." is an essential part of misery', 
-'the Beaver told the Rabbit, "no I didn\'t build the Hoover dam but it was based on an idea of mine..."'];
+'the Beaver told the Rabbit, "no I didn\'t build the Hoover dam but it was based on an idea of mine..."','[Friedrich Nietzsche in Beyond Good and Evil]=> Who has not for the sake of his reputation - sacrificed himself? [consider further] => To kill the soul for the sake of the body (the substrate) - the triumph of the Anti-Christ.',
+ '[Friedrich Nietzsche in Beyond Good and Evil]=> One begins to mistrust very clever people when they become embarrassed.', '[Friedrich Nietzsche in Beyond Good and Evil]=> That which is done out of love always takes place beyond good and evil. [consider further]=> However, the consequences for the deed fall well within the pedestrian.',
+'[Friedrich Nietzsche in Beyond Good and Evil]=> One has to requite good and ill: but why to precisely the person who did us good or ill? [consider further] Jesus taught us that others can pay our debts with body and blood.'];
 
 let buttonTarget = document.getElementById('button');
 let wisdomTarget = document.getElementById('wisdom-para');
